@@ -1,0 +1,59 @@
+﻿@page "/dashboard"
+@using Domain.DTOs  <!-- Ensure you have the correct namespace -->
+@inject HttpClient Http
+
+<div class="container mt-5">
+    <h2 class="text-center text-primary mb-4">Dashboard</h2>
+
+    @if (dashboardSummary == null)
+    {
+        <p class="text-center">Loading...</p>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-white bg-primary mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Books</h5>
+                        <p class="card-text">@dashboardSummary.TotalBooks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-success mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Average Rating</h5>
+                        <p class="card-text">@dashboardSummary.AverageRating</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-info mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Books by Genre</h5>
+                        <ul class="list-group">
+                            @foreach (var genre in dashboardSummary.BooksByGenre)
+                            {
+                                <li class="list-group-item">
+                                    <strong>@genre.Genre</strong>: @genre.Count books
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private DashboardSummaryDTO dashboardSummary;
+
+    // On page initialization, fetch the dashboard data from API
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch the dashboard summary from the API endpoint
+        dashboardSummary = await Http.GetFromJsonAsync<DashboardSummaryDTO>("https://localhost:7242/api/books/summary");
+    }
+}

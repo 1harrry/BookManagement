@@ -1,0 +1,88 @@
+﻿@page "/Books/Edit/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@using Domain.DTOs
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 shadow p-4 rounded bg-light">
+            <h2 class="text-center text-primary mb-4">Edit Book</h2>
+
+            @if (bookData == null)
+            {
+                <p class="text-center text-muted">Loading...</p>
+            }
+            else
+            {
+                <EditForm Model="bookData" OnValidSubmit="UpdateBook">
+                    <DataAnnotationsValidator />
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <InputText id="title" class="form-control" @bind-Value="bookData.Title" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="author" class="form-label">Author</label>
+                        <InputText id="author" class="form-control" @bind-Value="bookData.Author" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="genre" class="form-label">Genre</label>
+                        <InputText id="genre" class="form-control" @bind-Value="bookData.Genre" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <InputNumber id="price" class="form-control" @bind-Value="bookData.Price" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="discountPercentage" class="form-label">Discount Percentage</label>
+                        <InputNumber id="discountPercentage" class="form-control" @bind-Value="bookData.DiscountPercentage" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="rating" class="form-label">Rating</label>
+                        <InputNumber id="rating" class="form-control" @bind-Value="bookData.Rating" min="0" max="5" />
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="bi bi-save"></i> Save
+                        </button>
+                        <a class="btn btn-secondary" href="/Books">
+                            <i class="bi bi-arrow-left"></i> Cancel
+                        </a>
+                    </div>
+                </EditForm>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private BookDTO? bookData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch book details from the API using the book ID
+        bookData = await Http.GetFromJsonAsync<BookDTO>($"https://localhost:7242/api/Books/{id}");
+        if (bookData == null)
+        {
+            Navigation.NavigateTo("/Books");
+        }
+    }
+
+    private async Task UpdateBook()
+    {
+        // Update book details using the PUT API call
+        var response = await Http.PutAsJsonAsync($"https://localhost:7242/api/Books/{id}", bookData);
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/Books");
+        }
+        else
+        {
+            var error = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("Error: " + error);
+        }
+    }
+}

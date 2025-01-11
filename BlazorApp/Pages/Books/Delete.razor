@@ -1,0 +1,63 @@
+﻿@page "/Books/Delete/{id:int}"
+@using Domain.DTOs
+@inject HttpClient Http
+@inject NavigationManager Navigation
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 shadow p-4 rounded bg-light">
+            <h2 class="text-center text-danger mb-4">Delete Book</h2>
+
+            @if (bookData == null)
+            {
+                <p class="text-center text-muted">Loading...</p>
+            }
+            else
+            {
+                <p>Are you sure you want to delete the following book?</p>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item"><strong>Title:</strong> @bookData.Title</li>
+                    <li class="list-group-item"><strong>Author:</strong> @bookData.Author</li>
+                    <li class="list-group-item"><strong>Genre:</strong> @bookData.Genre</li>
+                    <li class="list-group-item"><strong>Price:</strong> @bookData.Price</li>
+                    <li class="list-group-item"><strong>Discount:</strong> @bookData.DiscountPercentage</li>
+                    <li class="list-group-item"><strong>Final Price:</strong> @bookData.FinalPrice</li>
+                </ul>
+
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-danger" @onclick="DeleteBook">
+                        <i class="bi bi-trash"></i> Delete
+                    </button>
+                    <a class="btn btn-secondary" href="/Books">
+                        <i class="bi bi-arrow-left"></i> Cancel
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private BookDTO? bookData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        bookData = await Http.GetFromJsonAsync<BookDTO>($"https://localhost:7242/api/Books/{Id}");
+    }
+
+    private async Task DeleteBook()
+    {
+        var response = await Http.DeleteAsync($"https://localhost:7242/api/Books/{Id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/Books");
+        }
+        else
+        {
+            var strResponse = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("Error: " + strResponse);
+        }
+    }
+}

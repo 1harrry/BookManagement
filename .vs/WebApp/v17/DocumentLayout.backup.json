@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harip\\source\\repos\\BookManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\readme\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\readme\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\pages\\books\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\books\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\domain\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\pages\\books\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\books\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\domain\\dtos\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\domain\\dtos\\genresummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\genresummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\pages\\books\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\books\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\pages\\books\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\books\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62E3884-355A-4817-8C77-14FC7949B8FF}|BookManagementSystem.Tests\\BookManagementSystem.Tests.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\bookmanagementsystem.tests\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62E3884-355A-4817-8C77-14FC7949B8FF}|BookManagementSystem.Tests\\BookManagementSystem.Tests.csproj|solutionrelative:bookmanagementsystem.tests\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\blazorapp\\pages\\books\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD074E-DDFC-466D-B446-FA38EE7F6EEB}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\books\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCDC03C8-CC49-4B77-8BB9-70B078A551C8}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|c:\\users\\harip\\source\\repos\\bookmanagement\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30D4D101-42CB-463B-9023-D30DD2F945F7}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Readme\\README.md",
+              "RelativeDocumentMoniker": "API\\Readme\\README.md",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Readme\\README.md",
+              "RelativeToolTip": "API\\Readme\\README.md",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-11T09:21:44.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\DashboardSummaryDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\DashboardSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\DashboardSummaryDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\DashboardSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T09:06:28.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenreSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\GenreSummaryDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GenreSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\GenreSummaryDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GenreSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T09:06:04.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Dashboard.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Books\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Dashboard.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Books\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:01:46.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:50:23.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:50:17.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-11T08:27:17.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:22:03.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\Domain\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\BookDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:21:28.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Books\\Index.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Index.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Books\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:20:48.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Books\\Delete.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Delete.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Books\\Delete.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:20:13.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Books\\Create.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Create.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Books\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:19:48.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Books\\Edit.razor",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BlazorApp\\Pages\\Books\\Edit.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Books\\Edit.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T08:19:22.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-11T08:07:42.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-11T07:58:22.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Services\\IBookService.cs",
+              "RelativeToolTip": "API\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:52:31.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Services\\BookService.cs",
+              "RelativeToolTip": "API\\Services\\BookService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAnwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:52:27.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "API\\Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:52:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\BookManagementSystem.Tests\\BookServiceTests.cs",
+              "RelativeDocumentMoniker": "BookManagementSystem.Tests\\BookServiceTests.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\BookManagementSystem.Tests\\BookServiceTests.cs",
+              "RelativeToolTip": "BookManagementSystem.Tests\\BookServiceTests.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAASwEMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:51:29.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:50:05.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "API\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwC8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:47:13.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:43:25.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\harip\\source\\repos\\BookManagement\\API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "API\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAApwCwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T07:42:42.715Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1255,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
